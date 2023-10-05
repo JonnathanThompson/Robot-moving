@@ -30,13 +30,69 @@ Right_Motor_speed = 0 #Intilaizes the variable Right_Motor_speed to 0
 
 while True:
 
-    Left_Motor_speed = -1 #Left motor moves backward
-    Left_Motor.throttle = Left_Motor_speed #put the throttle on the speed
-    Right_Motor_speed = -1
+   Left_Motor_speed = 1 #Left motor forward
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 1 #Right motor forward
     Right_Motor.throttle = Right_Motor_speed
-    time.sleep(2)
-    Left_Motor_speed = 1
+    time.sleep(3.1)
+   
+    Left_Motor_speed = -1
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 1 #Right motor forward
+    Right_Motor.throttle = Right_Motor_speed
+    time.sleep(.5)
+   
+    Left_Motor_speed = 1 #Left motor forward
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 1 #Right motor forward
+    Right_Motor.throttle = Right_Motor_speed
+    time.sleep(1.7)
+   
+    Left_Motor_speed = -1
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 1 #Right motor forward
+    Right_Motor.throttle = Right_Motor_speed
+    time.sleep(.5)
+   
+    Left_Motor_speed = 1 #Left motor forward
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 1 #Right motor forward
+    Right_Motor.throttle = Right_Motor_speed
+    time.sleep(.8)
+   
+    Left_Motor_speed = -1
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 1 #Right motor forward
+    Right_Motor.throttle = Right_Motor_speed
+    time.sleep(.4)
+   
+    Left_Motor_speed = 1 #Left motor forward
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 1 #Right motor forward
+    Right_Motor.throttle = Right_Motor_speed
+    time.sleep(.7)
+   
+    Left_Motor_speed = 1 #Left motor forward
     Left_Motor.throttle = Left_Motor_speed
     Right_Motor_speed = -1
     Right_Motor.throttle = Right_Motor_speed
-    time.sleep(2)
+    time.sleep(.6)
+   
+    Left_Motor_speed = 1 #Left motor forward
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 1 #Right motor forward
+    Right_Motor.throttle = Right_Motor_speed
+    time.sleep(.5)
+   
+    Left_Motor_speed = 1
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = -1 #Right motor forward
+    Right_Motor.throttle = Right_Motor_speed
+    time.sleep(.2)
+   
+    Left_Motor_speed = 1 #Left motor forward
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 1 #Right motor forward
+    Right_Motor.throttle = Right_Motor_speed
+    time.sleep(2.7)
+   
