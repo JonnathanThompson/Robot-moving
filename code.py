@@ -30,14 +30,12 @@ def Robot_forward
     Left_Motor.throttle = Left_Motor_speed
     Right_Motor_speed = -1
     Right_Motor.throttle = Right_Motor_speed
-    time.sleep(3)
 
 def Robot_backwards
     Left_Motor_speed = 1 
     Left_Motor.throttle = Left_Motor_speed
     Right_Motor_speed = 1 
     Right_Motor.throttle = Right_Motor_speed
-    time.sleep(3)
 
 
 def Robot_right
@@ -45,7 +43,6 @@ def Robot_right
     Left_Motor.throttle = Left_Motor_speed
     Right_Motor_speed = -1 
     Right_Motor.throttle = Right_Motor_speed
-    time.sleep(3)
 
 
 def Robot_left
@@ -53,81 +50,40 @@ def Robot_left
     Left_Motor.throttle = Left_Motor_speed
     Right_Motor_speed = 1 
     Right_Motor.throttle = Right_Motor_speed
-    time.sleep(3)
 
 def Robot_stop
    Left_Motor_speed = 0 
     Left_Motor.throttle = Left_Motor_speed
     Right_Motor_speed = 0
     Right_Motor.throttle = Right_Motor_speed
-    time.sleep(3)
-
 
 while True:
 
-   Left_Motor_speed = 1 #Left motor forward
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = 1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(3.1)
-   
-    Left_Motor_speed = -1
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = 1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(.5)
-   
-    Left_Motor_speed = 1 #Left motor forward
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = 1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(1.7)
-   
-    Left_Motor_speed = -1
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = 1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(.5)
-   
-    Left_Motor_speed = 1 #Left motor forward
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = 1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(.8)
-   
-    Left_Motor_speed = -1
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = 1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(.4)
-   
-    Left_Motor_speed = 1 #Left motor forward
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = 1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(.7)
-   
-    Left_Motor_speed = 1 #Left motor forward
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = -1
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(.6)
-   
-    Left_Motor_speed = 1 #Left motor forward
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = 1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(.5)
-   
-    Left_Motor_speed = 1
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = -1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(.2)
-   
-    Left_Motor_speed = 1 #Left motor forward
-    Left_Motor.throttle = Left_Motor_speed
-    Right_Motor_speed = 1 #Right motor forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(2.7)
-   
+Robot_forward 
+time.sleep(1.7)
+Robot_right
+time.sleep(.3)
+Robot_forward
+time.sleep(2)
+Robot_right
+time.sleep(.5)
+Robot_forward
+time.sleep(.7)
+Robot_left
+time.sleep(.5)
+Robot_forward
+time.sleep(.5)
+Robot_left
+time.sleep(.5)
+Robot_forward
+time.sleep(.7)
+Robot_right
+time.sleep(.5)
+Robot_forward
+time.sleep(.5)
+Robot_right
+time.sleep(.5)
+Robot_forward
+time.sleep(.8)
+
+
